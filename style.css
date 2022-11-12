@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat+Alternates&family=Nunito+Sans:wght@300;700&family=Poor+Story&family=Prompt:ital,wght@0,400;1,300&family=Saira+Extra+Condensed:wght@300&family=Stick+No+Bills:wght@300;600&family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Megrim&family=Montserrat+Alternates&family=Nunito+Sans:wght@300;700&family=Poor+Story&family=Prompt:ital,wght@0,400;1,300&family=Rampart+One&family=Saira+Extra+Condensed:wght@300&family=Stick+No+Bills:wght@300;600&family=Work+Sans:wght@400;500&display=swap');
+
+body {
+    margin: 0px;
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #a855f7;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+
+}
+
+span {
+    
+    font-family: "Megrim", cursive;
+    margin: auto;
+    font-size: larger;
+}
+span h1{
+
+    margin: 0px;
+}
+a {
+    float: right;
+    padding-right: 2rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+div h2{
+
+}
+.container {
+    width: 30%;
+    margin: auto;
+    padding: 1rem 8rem;
+    display: block;
+    text-align: center;
+
+
+}
+.quiz-container{
+    padding: 0rem;
+
+}
+label {
+    font-size: larger;
+    display: block;
+    
+}
+
+input {
+    width: 50%;
+    margin: 1rem;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    padding: 0rem 1rem;
+    border-color: var(--primary-color);
+}
+
+button {
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    color:white;
+}
