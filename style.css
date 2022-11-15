@@ -19,15 +19,17 @@ nav {
 }
 
 span {
-    
+
     font-family: "Megrim", cursive;
     margin: auto;
     font-size: larger;
 }
-span h1{
+
+span h1 {
 
     margin: 0px;
 }
+
 a {
     float: right;
     padding-right: 2rem;
@@ -36,9 +38,6 @@ a {
 
 }
 
-div h2{
-
-}
 .container {
     width: 30%;
     margin: auto;
@@ -48,14 +47,16 @@ div h2{
 
 
 }
-.quiz-container{
+
+.quiz-container {
     padding: 0rem;
 
 }
+
 label {
     font-size: larger;
     display: block;
-    
+
 }
 
 input {
@@ -78,5 +79,5 @@ button {
     font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     /* font-weight: bold; */
-    color:white;
+    color: white;
 }
